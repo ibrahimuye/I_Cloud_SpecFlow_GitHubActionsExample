@@ -101,9 +101,10 @@ namespace SpecFlow_GithubActions.Features
         [Xunit.TraitAttribute("Description", "Add N specified number of elements on the page")]
         [Xunit.TraitAttribute("Category", "TestCaseNo:001")]
         [Xunit.TraitAttribute("Category", "smoke")]
+        [Xunit.InlineDataAttribute("0", new string[0])]
         [Xunit.InlineDataAttribute("1", new string[0])]
         [Xunit.InlineDataAttribute("12", new string[0])]
-        [Xunit.InlineDataAttribute("0", new string[0])]
+        [Xunit.InlineDataAttribute("99", new string[0])]
         public virtual void AddNSpecifiedNumberOfElementsOnThePage(string n, string[] exampleTags)
         {
             string[] @__tags = new string[] {

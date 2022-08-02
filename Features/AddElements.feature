@@ -18,9 +18,10 @@ Scenario: Add N specified number of elements on the page
 	Then I should see <N> elements on the page
 Examples: 
 	| N  |
+	| 0  |
 	| 1  |
 	| 12 |
-	| 0  |
+	| 99 |
 
 
 # Notes
