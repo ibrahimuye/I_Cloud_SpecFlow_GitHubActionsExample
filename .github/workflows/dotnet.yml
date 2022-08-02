@@ -25,7 +25,8 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      
+    - name: Html Report By living Doc  
+      run: livingdoc test-assembly ../bin/Debug/net6.0/SpecFlow_GithubActions.dll -t ../bin/Debug/net6.0/TestExecution.json
     - name: Test Report
       uses: dorny/test-reporter@v1
       if: success() || failure()           # run this step even if previous step failed
