@@ -4,8 +4,6 @@ Feature: Add Elements
 	a. navigate to The Internet (https://the-internet.herokuapp.com/add_remove_elements/)
 	b. add n number of elements
 	c. assert that n number of elements exist on the page
-***Further read***: **[Learn more about how to generate Living Documentation](https://docs.specflow.org/projects/specflow-livingdoc/en/latest/LivingDocGenerator/Generating-Documentation.html)**
-
 
 Background: Navigate to the page
 	When I navigate to the herokuapp add elements page
